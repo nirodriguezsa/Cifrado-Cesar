@@ -1,9 +1,9 @@
-#Codigo creado por Nicolas Rodriguez
-#Este codigo no cifra espacios ni caracteres especiales, para que lo haga, modifique el alfabeto de entrada y adicione los que crea pertinentes
-#Si se llega a introducir un caracter especial (numeros, espacios, signos de admiracion, etc) el sistema no los va a cifrar y los iprimirá.
+# Codigo creado por Nicolas Rodriguez
+# Este codigo no cifra espacios ni caracteres especiales. Para que lo haga, modifique el alfabeto de entrada y adicione los que crea pertinentes
+# Si se llega a introducir un caracter especial (numeros, espacios, signos de admiracion, etc) el sistema no los va a cifrar y los iprimirá.
 
 alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-accion = "n" #Se inicializa en cualquier valor para que pueda entrar al while
+accion = "n" # Se inicializa en cualquier valor para que pueda entrar al while
 
 def encriptar(mensaje,llave):
   estring = ""
